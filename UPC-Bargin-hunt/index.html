@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>API Capstone</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/cb09f03be0.js"></script>
+</head>
+
+<body class="hidden">
+    <header id="logo" style="display:none;">
+        <img src="polarhead.png" Alt="PolarChefs logo" width=200 height=200>
+        <h1 id="intro"> Welcome To The Polar Chef UPC Finder, Here You Can Search A UPC To Find Name, Image and Video of
+            Your Sneaker. Links to Resale Sites, Found At The Bottom Of The Page.</h1>
+        <form id="upc-form">
+            <label for="search-term"></label>
+            <input type="text" name="search-term" id="search-term" placeholder="UPC CODE" required>
+            <input type="submit" id="submit-button" value="Search">
+        </form>
+    </header>
+    <section id="main-container">
+        <div id="card-container">
+            <div id="upc-card">
+                <div id="upc-header">
+                    <p>UPC Results</p>
+                    <div id="upc-container">
+
+                        <div id="upc-title">
+                            <i class="fas fa-barcode"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="upc-result" class="hidden"></div>
+                <div id="error-results"></div>
+            </div>
+            <div id="youtube-card">
+                <div id="upc-header">
+                    <p>Youtube Results</p>
+                    <div id="upc-container">
+                        <div id="youtube-title">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+                <div id="youtube-result" class="hidden"></div>
+
+            </div>
+        </div>
+    </section>
+    <div id="direction-container">
+        <div id="direction" class="hidden">SCROLL DOWN FOR RESALE LINKS</div>
+    </div>
+    <div id="arrow" class="hidden"><i class="fas fa-arrow-down" style="font-size:120px;"></i>
+        <div>
+            <footer id="resell-links">
+                <div id="stockx-card">
+                    <a href="https://stockx.com/" target="_blank"><img src="stockx.png" title="stockx" alt="stock logo"
+                            id="stockx-logo"></a>
+                </div>
+                <div id="goat-card">
+                    <a href="http://www.goat.com/" target="_blank"><img src="goat.png" title="goat logo" alt="goat logo"
+                            id="goat-logo"></a>
+                </div>
+            </footer>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.js"
+                integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+            <script src="script.js"></script>
+
+</body>
+
+</html>

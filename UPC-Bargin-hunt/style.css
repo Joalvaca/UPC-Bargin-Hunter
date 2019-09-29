@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #25AAE1;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#submit-button {
+    border: none;
+    background: black;
+    color: #ffffff;
+    font-weight: 100;
+    padding: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#submit-button:hover {
+    color: black;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background: white;
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: black;
+}
+
+#search-term {
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+
+#intro {
+    margin: 40px 10px;
+    padding: 5px;
+    line-height: 30px;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#upc-card,
+#youtube-card {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin: 30px;
+    margin-bottom: 80px;
+}
+
+i {
+    font-size: 60px;
+}
+
+#upc-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#upc-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#youtube-title,
+#upc-title {
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-align: right;
+}
+
+#upc-title {
+    margin-left: 30px;
+}
+
+#youtube-sneaker-title,
+#upc-sneaker-title {
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    padding: 25px;
+}
+
+#upc-form {
+    display: flex;
+    justify-content: center;
+}
+
+#youtube-result,
+#upc-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+placeholder {
+    color: black;
+}
+
+#sneaker-image {
+    border-radius: 10px;
+}
+
+#upc-response {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#error-results {
+    text-align: center;
+    padding: 28px;
+    line-height: 45px;
+    color: red;
+}
+
+#direction-container {
+    flex: display;
+    flex-direction: column;
+    align-items: center;
+}
+
+#direction {
+    border: 1px solid #25AAE1;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+    color: black;
+    background: white;
+    margin: 60px;
+    letter-spacing: 3px;
+}
+
+#arrow {
+    text-align: center;
+}
+
+.fas fa-arrow-down {
+    font-size: 40px;
+}
+
+#resell-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: white;
+    color: rgb(11, 11, 11);
+    padding: 30px;
+    margin-top: 30vh;
+}
+
+#stockx-card,
+#goat-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+p {
+    color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 25px;
+    letter-spacing: 3px;
+}
+
+
+/* Desktop */
+
+@media (min-width:1024px) {
+    #logo {
+        height: 100vh;
+        font-size: 12px;
+        margin: 5px;
+    }
+
+    #card-container {
+        width: 100%;
+    }
+
+    #upc-card,
+    #youtube-card {
+        height: 100vh;
+        width: 80vh;
+    }
+
+    #search-term {
+        width: 80vh;
+        font-size: 20px;
+    }
+
+    i {
+        font-size: 60px;
+    }
+
+    #upc-header {
+        width: 100%;
+    }
+
+    #youtube-sneaker-title,
+    #upc-sneaker-title {
+        width: 100%;
+        font: 60px;
+    }
+
+    #sneaker-image {
+        width: 300px;
+        height: 280px;
+    }
+
+    #youtube-video {
+        width: 450px;
+        height: 400px;
+    }
+
+    #upc-response {
+        font-size: 30px;
+        margin-top: 80px;
+    }
+
+    #error-results {
+        font-size: 20px;
+
+    }
+
+    #direction {
+        margin-top: 4vh;
+    }
+
+    #stockx-logo {
+        height: 80px;
+        width: 130px;
+        margin: 0 260px;
+    }
+
+    #goat-logo {
+        height: 125px;
+        width: 125px;
+        margin: 0 280px;
+    }
+
+    p {
+        font-size: 40px;
+    }
+}
+
+
+/* tablet */
+
+@media (max-width:1220px) {
+    #logo {
+        height: 100vh;
+    }
+
+    #intro {
+        font-size: 20px;
+    }
+
+    #main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+
+    }
+
+    #search-term {
+        width: 50vh;
+    }
+
+    #sneaker-image {
+        width: 150px;
+        height: 100px;
+    }
+
+    #youtube-video {
+        width: 190px;
+        height: 150px;
+    }
+
+    #youtube-card,
+    #upc-card {
+        width: 80%;
+        height: 90vh;
+    }
+
+    #youtube-result,
+    #upc-result {
+        padding: 10px;
+    }
+
+    #sneaker-image {
+        height: 200px;
+        width: 200px;
+    }
+
+    #upc-sneaker-title,
+    #upc-response,
+    #youtube-sneaker-title {
+        font-size: 27px;
+    }
+
+    #youtube-video {
+        margin-top: 40px;
+        height: 200px;
+        width: 350px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    #upc-response {
+        margin-top: 40px;
+
+    }
+
+    #err-results {
+        margin-top: 70px;
+    }
+
+    #resell-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #stockx-logo {
+        height: 80px;
+        width: 130px;
+    }
+
+    #goat-logo {
+        height: 125px;
+        width: 125px;
+    }
+}
+
+
+/* Iphone */
+
+@media (max-width:600px) {
+    #intro {
+        font-size: 20px;
+    }
+
+    #logo {
+        height: 100vh;
+    }
+
+
+    #search-term {
+        width: 30vh;
+    }
+
+    #youtube-video {
+        width: 240px;
+        height: 200px;
+    }
+
+    #upc-card,
+    #youtube-card {
+        margin: 0px;
+        margin-bottom: 30px;
+        height: 80vh;
+    }
+
+    #stockx-logo,
+    #goat-logo {
+        margin: 20px;
+    }
+
+    #upc-response {
+        margin: 0;
+    }
+}
