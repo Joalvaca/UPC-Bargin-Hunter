@@ -1,14 +1,14 @@
 # Polar Chefs Upc-Finder
-API Capstone for thinkful 
+<b>API Capstone for thinkful</b> 
 I made this web application for a group called Polar Chefs, it helps members find sneaker bargains at retail shops.
 
 Live demo https://joalvaca.github.io/UPC-Bargin-Hunter/
 
-Screenshots
+<b>Screenshots</b>
 <div><img src="images/UpcScreenShot.PNG" Alt="ScreenShot1" width=800 height=600></div>
 <div><img src="images/UpcScreenShot2.PNG" Alt="ScreenShot2" width=800 height=600></div>
 
-
+<b>UPC CODES</b>
 Here are some example UPC Codes for you to try on the website, Since the Barcode API isn't just for Sneakers. 
 <ul>
 <li>884499157670</li>
@@ -18,7 +18,7 @@ Here are some example UPC Codes for you to try on the website, Since the Barcode
 <li>192502554034</li>
 </ul>
 
-
+<b>Features</b>
 This website uses the following computer langauges
 <ul>
   <li>HTML</li>
@@ -26,6 +26,10 @@ This website uses the following computer langauges
   <li>JavaScript</li>
   <li>jQuery</li>
 </ul>  
+
+<b>Created by</b>
+
+Joel Alva
 
 
 
