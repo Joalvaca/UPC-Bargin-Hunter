@@ -8,8 +8,10 @@ Live demo https://joalvaca.github.io/UPC-Bargin-Hunter/
 <div><img src="images/UpcScreenShot.PNG" Alt="ScreenShot1" width=900 height=600></div>
 <div><img src="images/UpcScreenShot2.PNG" Alt="ScreenShot2" width=900 height=600></div>
 
+
+
 <b>UPC CODES</b>
-Here are some example UPC Codes for you to try on the website, Since the Barcode API isn't just for Sneakers. 
+<div>Here are some example UPC Codes for you to try on the website, Since the Barcode API isn't just for Sneakers.</div> 
 <ul>
 <li>884499157670</li>
 <li>191040706868</li>
