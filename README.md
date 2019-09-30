@@ -5,8 +5,8 @@ I made this web application for a group called Polar Chefs, it helps members fin
 Live demo https://joalvaca.github.io/UPC-Bargin-Hunter/
 
 Screenshots
-<img src="images/UPC ScreenShot.PNG" Alt="PolarChefs logo" width=200 height=200>
-<img src="images/UPC.ScreenShot2.PNG" Alt="PolarChefs logo" width=200 height=200>
+<img src="images/UPC ScreenShot.PNG" Alt="ScreenShot1" width=200 height=200>
+<img src="images/UPC.ScreenShot2.PNG" Alt="ScreenShot2" width=200 height=200>
 
 
 Here are some example UPC Codes for you to try on the website, Since the Barcode API isn't just for Sneakers. 
