@@ -1,6 +1,6 @@
 # Polar Chefs Upc-Finder
 <b>API Capstone for thinkful</b> 
-I made this web application for a group called Polar Chefs, it helps members find sneaker bargains at retail shops.
+<div>I made this web application for a group called Polar Chefs, it helps members find sneaker bargains at retail shops.</div>
 
 Live demo https://joalvaca.github.io/UPC-Bargin-Hunter/
 
