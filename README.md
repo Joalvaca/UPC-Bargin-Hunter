@@ -2,7 +2,8 @@
 <b>API Capstone for thinkful</b> 
 <div>I made this web application for a group called Polar Chefs, it helps members find sneaker bargains at retail shops.</div>
 
-Live demo https://joalvaca.github.io/UPC-Bargin-Hunter/
+# Live demo 
+<div>https://joalvaca.github.io/UPC-Bargin-Hunter/</div>
 
 <b>Screenshots</b>
 <div><img src="images/UpcScreenShot.PNG" Alt="logoPage" ></div>
