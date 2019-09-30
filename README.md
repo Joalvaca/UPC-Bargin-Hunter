@@ -5,8 +5,8 @@ I made this web application for a group called Polar Chefs, it helps members fin
 Live demo https://joalvaca.github.io/UPC-Bargin-Hunter/
 
 <b>Screenshots</b>
-<div><img src="images/UpcScreenShot.PNG" Alt="ScreenShot1" width=900 height=600></div>
-<div><img src="images/UpcScreenShot2.PNG" Alt="ScreenShot2" width=900 height=600></div>
+<div><img src="images/UpcScreenShot.PNG" Alt="logoPage" ></div>
+<div><img src="images/UpcScreenShot2.PNG" Alt="ResultsPage"></div>
 
 
 
