@@ -5,13 +5,13 @@
 # Live demo 
 <div>https://joalvaca.github.io/UPC-Bargin-Hunter/</div>
 
-<b>Screenshots</b>
+# Screenshots
 <div><img src="images/UpcScreenShot.PNG" Alt="logoPage" ></div>
 <div><img src="images/UpcScreenShot2.PNG" Alt="ResultsPage"></div>
 
 
 
-<b>UPC CODES</b>
+# UPC CODES
 <div>Here are some example UPC Codes for you to try on the website, Since the Barcode API isn't just for Sneakers.</div> 
 <ul>
 <li>884499157670</li>
@@ -21,7 +21,7 @@
 <li>192502554034</li>
 </ul>
 
-<b>Features</b>
+# Features
 <div>This website uses the following computer langauges</div>
 <ul>
   <li>HTML</li>
