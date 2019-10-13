@@ -8,6 +8,7 @@
 body {
     background-color: #25AAE1;
     color: white;
+
 }
 
 .hidden {
@@ -90,16 +91,18 @@ header {
 }
 
 i {
-    font-size: 60px;
+    font-size: 45px;
 }
 
-#upc-container {
+#upc-container,
+#youtube-container {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-#upc-header {
+#upc-header,
+#youtube-header {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -191,7 +194,7 @@ placeholder {
 #resell-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background: white;
     color: rgb(11, 11, 11);
     padding: 30px;
@@ -218,7 +221,7 @@ p {
 
 /* Desktop */
 
-@media (min-width:1024px) {
+@media (min-width:781px) {
     #logo {
         height: 100vh;
         font-size: 12px;
@@ -241,17 +244,18 @@ p {
     }
 
     i {
-        font-size: 60px;
+        font-size: 50px;
     }
 
-    #upc-header {
+    #upc-header,
+    #youtube-header {
         width: 100%;
     }
 
     #youtube-sneaker-title,
     #upc-sneaker-title {
         width: 100%;
-        font: 60px;
+        font: 50px;
     }
 
     #sneaker-image {
@@ -260,8 +264,8 @@ p {
     }
 
     #youtube-video {
-        width: 450px;
-        height: 400px;
+        width: 400x;
+        height: 300px;
     }
 
     #upc-response {
@@ -281,24 +285,24 @@ p {
     #stockx-logo {
         height: 80px;
         width: 130px;
-        margin: 0 260px;
+        margin-right: 50vh;
     }
 
     #goat-logo {
         height: 125px;
         width: 125px;
-        margin: 0 280px;
+        margin: 0px;
     }
 
     p {
-        font-size: 40px;
+        font-size: 25px;
     }
 }
 
 
 /* tablet */
 
-@media (max-width:1220px) {
+@media (max-width:780px) {
     #logo {
         height: 100vh;
     }
